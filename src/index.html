@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Odin | Landing Page</title>
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <h1 class="logo">Archtech</h1>
+            <ul class="nav-list">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <div class="hero-cta">
+                <h2 class="hero-heading">This is an architecture fanpage</h2>
+                <p class="hero-subtext">There is beautiful architecture all over the global. This page is dedicated to some of the most beautiful places. Enjoy!</p>
+                <button class="hero-button">Sign Up</button>
+            </div>
+            <div class="hero-img-container">
+                <img class="hero-img" src="./img/pexels-dmitry93-39228741.jpg" alt="Looking up under a glass atrium roof showcasing intricate railings and detailed architecture.">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="info-cards">
+            <h2>More beautiful architecture.</h2>
+            <div class="cards">
+                <figure class="card">
+                    <div class="square-img-container">
+                        <img src="./img/pexels-adrien-olichon-1257089-3137047.jpg" alt="Looking up at a glass and steel walkway with curved steel beams making up the roof.">
+                    </div>
+                    <figcaption>Modern glass and steel structure with geometric lines and daylight.</figcaption>
+                </figure>
+                <figure class="card">
+                    <div class="square-img-container">
+                        <img src="./img/pexels-costa-17729218.jpg" alt="A concrete building with a stone siding. Lines are carved into the stone siding.">
+                    </div>
+                    <figcaption>Close-up view of a contemporary building with geometric patterns and concrete facade.</figcaption>
+                </figure>
+                <figure class="card">
+                    <div class="square-img-container">
+                        <img src="./img/pexels-sakaryaze-39610357.jpg" alt="Looking up a stone building on a cloudy day.">
+                    </div>
+                    <figcaption>Close-up of a neoclassical building with ornate stone designs against a cloudy sky.</figcaption>
+                </figure>
+                <figure class="card">
+                    <div class="square-img-container">
+                        <img src="./img/pexels-roman-odintsov-7931275.jpg" alt="An ornate designed building with large columns and intricate detail near the roof">
+                    </div>
+                    <figcaption>Elegant neoclassical building with towering columns and ornate architecture.</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="quote">
+            <blockquote>
+                <p class="quote-text">If you wish to make an apple from scatch, you must first invent the universe.</p>
+                <p class="quote-author">─ Carl Sagan</p>
+            </blockquote>
+        </section>
+        <section class="cta">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <p class="cta-heading">Call to action! It's time!</p>
+                    <p class="cta-subtext">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button class="cta-btn">Sign up</button>
+            </div>
+        </section>
+    </main>
+    <footer class="odin-footer">
+        <p>Copyright &copy; <span id="year"></span> The Odin Project</p>
+    </footer>
+</body>
+<script>
+    const elementName = "#year";
+    document.querySelector(elementName).textContent = new Date().getFullYear();
+</script>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html> -->
