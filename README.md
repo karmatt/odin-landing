@@ -1,6 +1,8 @@
 # odin-landing
 Landing Page for Odin Project
 
+**Will Make It Responsive Later**
+
 # setup
 Font: Roboto (you will need to download and install this font if you don’t already have it)
 Dark background color (header, hero section and footer): #1F2937
